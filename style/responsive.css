@@ -1,0 +1,43 @@
+@media screen and (max-width:683px){
+    .carousel{
+        padding: 10px 0px 10px 0px;
+    }   
+}
+
+@media screen and (max-width:768px){
+    header .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    header .logo{
+        min-width: 60%;
+        justify-content: flex-start;
+        padding-left: 10px;
+        order: 1;
+    }
+    header .left-navigation{
+        min-width: 100%;
+        justify-content: flex-start;
+        padding-left: 20px;
+        padding-bottom: 5px;
+        order: 2;
+    }
+    header .right-navigation{
+        min-width: 40%;
+        justify-content: center;
+        order: 1;
+    }
+    main .p-filme{
+        width: 75%;
+    }
+    main .title{
+        width: 75%;
+    }
+    main .description{
+        width: 75%;
+    }
+    main .details {
+        width: 75%;
+    }
+}
